@@ -6,14 +6,14 @@ Se requiere un programa en Java para convertir una cantidad de dinero en otros t
  ~~~
 -Entrada
  float cantidad
- String moneda1, moneda2, moneda3, moneda4, moneda5
+ String moneda
  double conversion
  
 -Proceso
  Solicitar moneda a convertir
  Solicitar cantidad a convertir
- Solicitar moneda para procesar conversion
  
+ Si la moneda no se introduce correctamente, se cancela la operacion 
  Si la cantidad es mayor o igual que cero, entonces se convertira a la moneda deseada 
  Si la cantidad es menor que cero entonces se cancela la operacion
  
@@ -22,13 +22,19 @@ Se requiere un programa en Java para convertir una cantidad de dinero en otros t
 +--------+-------------+-------------------+--------------+
 |CANTIDAD|MONEDA ORIGEN|CANTIDAD CONVERTIDA|MONEDA DESTINO|
 +--------+-------------+-------------------+--------------+
-|   10   |     DLLS    |         189.79    |     MXN      |
+|   1    |     DLLS    |         1.34      |     USD      |
 +--------+-------------+-------------------+--------------+
 +--------+-------------+-------------------+--------------+
-|   10   |     DLLS    |        0.00043    |     BTC      |
+|   1    |     DLLS    |        189.11     |     AFN      |
 +--------+-------------+-------------------+--------------+
 +--------+-------------+-------------------+--------------+
-|   10   |     DLLS    |         189.79    |     MXN      |
+|   1    |     DLLS    |         34.54     |     BOB      |
++--------+-------------+-------------------+--------------+
++--------+-------------+-------------------+--------------+
+|   1    |     DLLS    |         1.33      |     SGD      |
++--------+-------------+-------------------+--------------+
++--------+-------------+-------------------+--------------+
+|   1    |     DLLS    |         0.93      |     CHF      |
 +--------+-------------+-------------------+--------------+
 ~~~
  ## Etapa 03. Diseño de la Solucion 
